@@ -1,8 +1,9 @@
 package com.hei.projet
 
+
 object Main {
 
-  def main() : Unit = {
+  def main(args: Array[String]) : Unit = {
     new ScraperDoc
   }
 
