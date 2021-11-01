@@ -1,0 +1,221 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/coren/AppData/Local/Temp/sbt-structure.xml; session clear-all ; set ideaPort in Global := 61364, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.2 (Oracle Corporation Java 14.0.2)
+[debug]       Load.loadUnit: plugins took 54.183299ms
+[debug]       Load.loadUnit: defsScala took 0.0063ms
+[debug] [Loading] Scanning directory C:\Users\coren\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\coren\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6248 ms
+[debug]           Load.resolveProject(global-plugins) took 1.2917ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\coren\.sbt\1.0\plugins, plugins: List(<none>))) took 3.5521ms
+[debug] [Loading] Done in C:\Users\coren\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 4.875201ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.010501ms
+[debug]     Load.loadUnit(file:/C:/Users/coren/.sbt/1.0/plugins/, ...) took 60.726699ms
+[debug]   Load.apply: load took 63.1712ms
+[debug]   Load.apply: resolveProjects took 0.1421ms
+[debug]   Load.apply: finalTransforms took 7.281501ms
+[debug]   Load.apply: config.delegates took 0.546299ms
+[debug]   Load.apply: Def.make(settings)... took 65.0155ms
+[debug]   Load.apply: structureIndex took 25.8477ms
+[debug]   Load.apply: mkStreams took 0.004701ms
+[info] loading global plugins from C:\Users\coren\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 614.9611ms
+[debug]           Load.loadUnit: plugins took 48.3278ms
+[debug]           Load.loadUnit: defsScala took 0.0083ms
+[debug] [Loading] Scanning directory C:\Users\coren\Documents\HEI\HEI5\Scala\Projet\ProjetProgramFonct\projet-scala\project
+[debug]             Load.loadUnit: mkEval took 0.604499ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\coren\Documents\HEI\HEI5\Scala\Projet\ProjetProgramFonct\projet-scala\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.066799 ms
+[info] loading settings for project projet-scala-build from idea.sbt ...
+[debug]               Load.resolveProject(projet-scala-build) took 8.9774ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id projet-scala-build, base: C:\Users\coren\Documents\HEI\HEI5\Scala\Projet\ProjetProgramFonct\projet-scala\project, plugins: List(<none>))) took 11.8925ms
+[debug] [Loading] Done in C:\Users\coren\Documents\HEI\HEI5\Scala\Projet\ProjetProgramFonct\projet-scala\project, returning: (projet-scala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 49.141701ms
+[debug]           Load.loadUnit: cleanEvalClasses took 11.6043ms
+[debug]         Load.loadUnit(file:/C:/Users/coren/Documents/HEI/HEI5/Scala/Projet/ProjetProgramFonct/projet-scala/project/, ...) took 111.0878ms
+[debug]       Load.apply: load took 113.6518ms
+[debug]       Load.apply: resolveProjects took 0.1749ms
+[debug]       Load.apply: finalTransforms took 9.6539ms
+[debug]       Load.apply: config.delegates took 0.5166ms
+[debug]       Load.apply: Def.make(settings)... took 92.5099ms
+[debug]       Load.apply: structureIndex took 27.111599ms
+[debug]       Load.apply: mkStreams took 0.007ms
+[info] loading project definition from C:\Users\coren\Documents\HEI\HEI5\Scala\Projet\ProjetProgramFonct\projet-scala\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 778.2542ms
+[debug]     Load.loadUnit: defsScala took 0.0045ms
+[debug] [Loading] Scanning directory C:\Users\coren\Documents\HEI\HEI5\Scala\Projet\ProjetProgramFonct\projet-scala
+[debug]       Load.loadUnit: mkEval took 0.492399ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\coren\Documents\HEI\HEI5\Scala\Projet\ProjetProgramFonct\projet-scala, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.5529 ms
+[info] loading settings for project projet-scala from build.sbt ...
+[debug]         Load.resolveProject(projet-scala) took 85.2512ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id projet-scala, base: C:\Users\coren\Documents\HEI\HEI5\Scala\Projet\ProjetProgramFonct\projet-scala, plugins: List(<none>))) took 88.718401ms
+[debug] [Loading] Done in C:\Users\coren\Documents\HEI\HEI5\Scala\Projet\ProjetProgramFonct\projet-scala, returning: (projet-scala)
+[debug]     Load.loadUnit: loadedProjectsRaw took 430.1337ms
+[debug]     Load.loadUnit: cleanEvalClasses took 99.042899ms
+[debug]   Load.loadUnit(file:/C:/Users/coren/Documents/HEI/HEI5/Scala/Projet/ProjetProgramFonct/projet-scala/, ...) took 1309.2587ms
+[debug] Load.apply: load took 1311.7531ms
+[debug] Load.apply: resolveProjects took 0.1673ms
+[debug] Load.apply: finalTransforms took 15.957101ms
+[debug] Load.apply: config.delegates took 0.358801ms
+[debug] Load.apply: Def.make(settings)... took 98.504199ms
+[debug] Load.apply: structureIndex took 21.250301ms
+[debug] Load.apply: mkStreams took 0.0034ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to projet-scala (in build file:/C:/Users/coren/Documents/HEI/HEI5/Scala/Projet/ProjetProgramFonct/projet-scala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to projet-scala (in build file:/C:/Users/coren/Documents/HEI/HEI5/Scala/Projet/ProjetProgramFonct/projet-scala/)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/coren/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[error] sbt.librarymanagement.ResolveException: Error downloading com.lihaoyi:ujson_2.13:0.6.5
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\coren\.ivy2\localcom.lihaoyi\ujson_2.13\0.6.5\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/0.6.5/ujson_2.13-0.6.5.pom
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3667)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:832)
+[error] sbt.librarymanagement.ResolveException: Error downloading com.lihaoyi:ujson_2.13:0.6.5
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\coren\.ivy2\localcom.lihaoyi\ujson_2.13\0.6.5\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/0.6.5/ujson_2.13-0.6.5.pom
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3667)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:832)
+[error] (update) sbt.librarymanagement.ResolveException: Error downloading com.lihaoyi:ujson_2.13:0.6.5
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\coren\.ivy2\localcom.lihaoyi\ujson_2.13\0.6.5\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/0.6.5/ujson_2.13-0.6.5.pom
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading com.lihaoyi:ujson_2.13:0.6.5
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\coren\.ivy2\localcom.lihaoyi\ujson_2.13\0.6.5\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/0.6.5/ujson_2.13-0.6.5.pom
+[error] Total time: 2 s, completed 1 nov. 2021 à 13:35:59
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
