@@ -11,4 +11,5 @@ libraryDependencies += "net.ruippeixotog" %% "scala-scraper" % "2.2.1"
 libraryDependencies ++= Seq(
 
   "org.seleniumhq.webdriver" % "webdriver-htmlunit" % "0.9.7376"
+
 )

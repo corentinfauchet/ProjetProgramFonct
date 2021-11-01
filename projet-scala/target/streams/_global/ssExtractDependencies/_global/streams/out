@@ -1,53 +1,8 @@
-[error] sbt.librarymanagement.ResolveException: Error downloading org.eclipse.jetty:jetty-project:9.4.39.v20210325
+[error] sbt.librarymanagement.ResolveException: Error downloading com.lihaoyi:ujson_2.13:0.6.5
 [error]   Not found
 [error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty\jetty-project\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught java.net.SocketException: Network is unreachable: connect (Network is unreachable: connect) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/9.4.39.v20210325/jetty-project-9.4.39.v20210325.pom
-[error] Error downloading xerces:xercesImpl:2.12.0
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localxerces\xercesImpl\2.12.0\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.pom
-[error] Error downloading org.eclipse.jetty:jetty-util:9.4.39.v20210325
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty\jetty-util\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.39.v20210325/jetty-util-9.4.39.v20210325.pom
-[error] Error downloading org.eclipse.jetty.websocket:websocket-common:9.4.39.v20210325
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty.websocket\websocket-common\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.39.v20210325/websocket-common-9.4.39.v20210325.pom
-[error] Error downloading org.junit:junit-bom:5.7.1
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.junit\junit-bom\5.7.1\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
-[error] Error downloading org.eclipse.jetty:jetty-io:9.4.39.v20210325
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty\jetty-io\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.39.v20210325/jetty-io-9.4.39.v20210325.pom
-[error] Error downloading xalan:serializer:2.7.2
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localxalan\serializer\2.7.2\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.pom
-[error] Error downloading org.eclipse.jetty:jetty-client:9.4.39.v20210325
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty\jetty-client\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.39.v20210325/jetty-client-9.4.39.v20210325.pom
-[error] Error downloading org.apache.httpcomponents:httpclient:4.5.13
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.apache.httpcomponents\httpclient\4.5.13\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom
-[error] Error downloading org.apache:apache:13
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.apache\apache\13\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+[error]   not found: C:\Users\coren\.ivy2\localcom.lihaoyi\ujson_2.13\0.6.5\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/0.6.5/ujson_2.13-0.6.5.pom
 [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
 [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
 [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
@@ -78,53 +33,8 @@
 [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 [error] 	at java.base/java.lang.Thread.run(Thread.java:832)
-[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading org.eclipse.jetty:jetty-project:9.4.39.v20210325
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading com.lihaoyi:ujson_2.13:0.6.5
 [error]   Not found
 [error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty\jetty-project\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught java.net.SocketException: Network is unreachable: connect (Network is unreachable: connect) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/9.4.39.v20210325/jetty-project-9.4.39.v20210325.pom
-[error] Error downloading xerces:xercesImpl:2.12.0
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localxerces\xercesImpl\2.12.0\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.pom
-[error] Error downloading org.eclipse.jetty:jetty-util:9.4.39.v20210325
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty\jetty-util\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.39.v20210325/jetty-util-9.4.39.v20210325.pom
-[error] Error downloading org.eclipse.jetty.websocket:websocket-common:9.4.39.v20210325
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty.websocket\websocket-common\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.39.v20210325/websocket-common-9.4.39.v20210325.pom
-[error] Error downloading org.junit:junit-bom:5.7.1
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.junit\junit-bom\5.7.1\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/junit/junit-bom/5.7.1/junit-bom-5.7.1.pom
-[error] Error downloading org.eclipse.jetty:jetty-io:9.4.39.v20210325
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty\jetty-io\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.39.v20210325/jetty-io-9.4.39.v20210325.pom
-[error] Error downloading xalan:serializer:2.7.2
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localxalan\serializer\2.7.2\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.pom
-[error] Error downloading org.eclipse.jetty:jetty-client:9.4.39.v20210325
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.eclipse.jetty\jetty-client\9.4.39.v20210325\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.39.v20210325/jetty-client-9.4.39.v20210325.pom
-[error] Error downloading org.apache.httpcomponents:httpclient:4.5.13
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.apache.httpcomponents\httpclient\4.5.13\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom
-[error] Error downloading org.apache:apache:13
-[error]   Not found
-[error]   Not found
-[error]   not found: C:\Users\coren\.ivy2\localorg.apache\apache\13\ivys\ivy.xml
-[error]   download error: Caught javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+[error]   not found: C:\Users\coren\.ivy2\localcom.lihaoyi\ujson_2.13\0.6.5\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/0.6.5/ujson_2.13-0.6.5.pom
