@@ -77,17 +77,18 @@ class FonctionProjet {
   System.out.println("Fin de la recuperation des données")
 
 
-  def Chandelier(o: Double, f: Double) = if (o < f) 0 else if (o > f) 1
+  def Chandelier(o: Double, f: Double) : Int  = if (o < f) 0 else 1
 
-  def fonctionChandelier(o1: Double, f1: Double, m1: Double, o2: Double, f2: Double) =
-    if (Chandelier(o1, f1) == 0 & Chandelier(o2, f2) == 1) {
-      if (f2 > o1 & m1 < o2)
-        System.out.println("Il faut vendre!")
-    }
-    else if (Chandelier(o1, f1) == 1 & Chandelier(o2, f2) == 0) {
-      if (f1 > o1 & m1 < f2)
-        System.out.println("Il faut acheter!")
-    }
+  def fonctionChandelier( o1 : Double, c1 : Double, m1 : Double, o2 : Double, c2 : Double): Unit = {
+    if (Chandelier(o1,c1)==0 & Chandelier(o2,c2)==1)
+      if (c2>o1 & m1<o2) println("Il faut vendre!")
+      else println("Pas besoin de vendre")
+    else if (Chandelier(o1,c1)==1 & Chandelier(o2,c2)==0)
+      if (c1>o1 & m1<c2) println("Il faut acheter!")
+      else println("Pas besoin de vendre")
+    else if ((Chandelier(o1,c1)==1 & Chandelier(o2,c2)==1) | (Chandelier(o1,c1)==0 & Chandelier(o2,c2)==0))
+      println("Pas besoin de vendre")
+  }
 
   fonctionChandelier(Ouverture.get(n), Cloture.get(n), PlusHaut.get(n), Ouverture.get(m), Cloture.get(m))
   System.out.println("Fin de la fonction chandelier")
